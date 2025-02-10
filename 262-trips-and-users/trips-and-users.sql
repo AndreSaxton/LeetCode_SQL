@@ -1,5 +1,3 @@
-/* Write your T-SQL query statement below */
-
  select x.request_at as Day
       , cast(x.qtd_cancelled/x.qtd_total as decimal(5,2)) as 'Cancellation Rate'   
 from (
