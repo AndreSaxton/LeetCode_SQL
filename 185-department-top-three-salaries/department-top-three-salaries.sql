@@ -1,5 +1,3 @@
-/* Write your T-SQL query statement below */
-
 select x.Department, x.Employee, x.Salary
 from (
 select b.name   as Department
