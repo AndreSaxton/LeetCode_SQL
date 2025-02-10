@@ -1,3 +1,3 @@
 select a.name
   from Customer a
- where isnull(a.referee_id,0) <> 2
+ where a.referee_id <> 2 or a.referee_id is null
