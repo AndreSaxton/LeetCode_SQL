@@ -1,3 +1,4 @@
+
 select a.num as ConsecutiveNums
   from Logs a
   join Logs b on b.id = a.id+1
