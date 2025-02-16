@@ -1,3 +1,3 @@
-SELECT tweet_id
-  FROM Tweets
- WHERE LEN(content) > 15
+SELECT A.tweet_id
+  FROM Tweets A
+ WHERE LEN(A.content) > 15
