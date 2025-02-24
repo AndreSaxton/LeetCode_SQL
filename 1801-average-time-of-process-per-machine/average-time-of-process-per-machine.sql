@@ -12,3 +12,4 @@ SELECT X.machine_id                    AS machine_id
        ) X
  GROUP BY X.machine_id
  ORDER BY X.machine_id ASC
+ 
