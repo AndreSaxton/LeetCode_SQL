@@ -10,3 +10,4 @@ SELECT A.employee_id, A.department_id
                      FROM Employee X
                     WHERE X.employee_id  = A.employee_id
                       AND X.primary_flag = 'Y')
+                      
