@@ -9,5 +9,4 @@ SELECT A.employee_id, A.department_id
  WHERE NOT EXISTS (SELECT TOP 1 1
                      FROM Employee X
                     WHERE X.employee_id  = A.employee_id
-                      AND X.primary_flag = 'Y')
-                      
+                      AND X.primary_flag = 'Y')                      
