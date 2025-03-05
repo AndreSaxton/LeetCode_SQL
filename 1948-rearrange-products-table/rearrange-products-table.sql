@@ -1,4 +1,3 @@
-
 SELECT product_id, store, price
   FROM (
         SELECT A.product_id, A.store1, A.store2, A.store3
