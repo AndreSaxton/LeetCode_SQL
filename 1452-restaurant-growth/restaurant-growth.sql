@@ -25,7 +25,6 @@ CTE_amount AS
 )
 
 
-
 SELECT CTE_days.date_limit    AS visited_on
      , SUM(CTE_amount.amount) AS amount
      , ROUND(AVG(CONVERT(NUMERIC(15,2), CTE_amount.amount)),2) AS average_amount
