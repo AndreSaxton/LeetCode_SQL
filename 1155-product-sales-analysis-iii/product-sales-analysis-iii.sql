@@ -8,6 +8,7 @@ WITH CTE_SALES AS
      FROM Sales
 )
 
+
 SELECT product_id
      , first_year
      , quantity
