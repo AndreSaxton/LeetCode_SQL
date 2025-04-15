@@ -29,7 +29,6 @@ CTE_Tree AS
       JOIN CTE_TreeLeaf CTE_LEAF ON CTE_LEAF.id = T.id
 )
 
-
 SELECT CTE.id
      , CTE.type
   FROM CTE_Tree CTE
