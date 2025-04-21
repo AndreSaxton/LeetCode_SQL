@@ -20,3 +20,4 @@
  ORDER BY customer_count DESC
         , A.product_id   ASC
         , B.product_id   ASC
+        
