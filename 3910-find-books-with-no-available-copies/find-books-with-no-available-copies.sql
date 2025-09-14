@@ -25,4 +25,5 @@ SELECT A.book_id
   FROM cte_not_returned_books A
   JOIN library_books          B ON B.book_id      = A.book_id
                                AND B.total_copies = A.qtty_borrowed
- ORDER BY A.qtty_borrowed DESC, B.title ASC
+ ORDER BY A.qtty_borrowed DESC
+        , B.title ASC
